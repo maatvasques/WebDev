@@ -1,23 +1,23 @@
-//{
-// let nome = "Caio";
-// if(nome == "Caio") {
-//     console.log("É você mesmo Caio")
-// }
-// else if (nome === "Fulano") {
-//     console.log("Quem é você?")
-// }
-// else {	
-//     console.log("Não é você Caio")
-// }
-// let nome = "Matheus";
-// (condição) ? (true) : (false)
-// nome === "Matheus" ? console.log("É você mesmo Matheus") : console.log("Não é você Matheus")
-// nome === "Matheus" ? console.log("É você mesmo Matheus") : console.log("Não é você Matheus")
-// }
+/* {
+let nome = "Caio";
+ if(nome == "Caio") {
+     console.log("É você mesmo Caio")
+ }
+ else if (nome === "Fulano") {
+     console.log("Quem é você?")
+ }
+ else {	
+     console.log("Não é você Caio")
+ }
+ let nome = "Matheus";
+ (condição) ? (true) : (false)
+ nome === "Matheus" ? console.log("É você mesmo Matheus") : console.log("Não é você Matheus")
+ nome === "Matheus" ? console.log("É você mesmo Matheus") : console.log("Não é você Matheus")
+ }
 
-// && significa (E), || significa (OU), ! significa (NÃO).
-{/* <a>
-    {/* let usuario = prompt("Digite o primeiro usuario: ");
+ && significa (E), || significa (OU), ! significa (NÃO).
+{* <a>
+    {* let usuario = prompt("Digite o primeiro usuario: ");
     let senha = prompt("Digite sua primeira senha:")
     
     let usuario2 = prompt("Digite o segundo usuario: ");
@@ -33,7 +33,9 @@
     
     } else {
         alert("Login ou senha incorretos")
-    } */}
+    } */
+
+
 
 
 
