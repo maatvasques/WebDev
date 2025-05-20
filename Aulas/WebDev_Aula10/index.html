@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula </title>
+
+</head>
+
+<body>
+    <form id="form" style="display: flex; flex-direction: column;">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email">
+        <br>
+        <select id="assunto">
+            <option value="opcao1">Sugestão</option>
+            <option value="opcao2">elogio</option>
+            <option value="opcao3">critica</option>
+        </select>
+        <br>
+        <label for="mensagem">Mensagem: </label>
+        <textarea id="mensagem"></textarea>
+        <button id="btnEnviar">Enviar</button>
+    </form>
+    <p id="mensagem-erro"></p>
+    <div id="cadastroUsuarios">
+        <h2>Lista de usuários</h2>
+    </div>
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
