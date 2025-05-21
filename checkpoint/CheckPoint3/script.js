@@ -1,3 +1,4 @@
+
 const produtos = [
     { nome: 'Camiseta Algodão', preco: 30.99, categoria: 'Vestuário', disponibilidade: true },
     { nome: 'Calça Jeans', preco: 79.50, categoria: 'Vestuário', disponibilidade: false },
