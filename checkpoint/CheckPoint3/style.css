@@ -1,79 +1,91 @@
-body {
-    font-family: sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
-    color: #333;
-}
 
-h1, h2 {
-    color: #007bff;
-    text-align: center;
+.header-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
     margin-bottom: 20px;
 }
 
+h1, h2 {
+    color: #b0b0b0;
+    
+    margin-bottom: 0; 
+}
+
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: #00FF85;
+    color: black;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-bottom: 20px;
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
-
 #formFiltro {
-    background-color: #fff;
+    background-color: #848484;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    gap: 15px;
+    justify-content: center; 
+}
+
+#formFiltro label,
+#formFiltro select,
+#formFiltro input[type="checkbox"],
+#formFiltro button {
+    margin-bottom: 0; 
 }
 
 #formFiltro label {
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin-right: 5px; 
 }
 
-#filtroCategoria {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    width: 200px;
+
+#formFiltro input[type="checkbox"] + label {
+    display: flex;
+    align-items: center;
 }
 
-#filtroDisponibilidade {
-    margin-right: 5px;
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #212121;
+    color: #333;
 }
 
 .produto {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 15px;
+    border: 1px solid #00FF85;
+    padding: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    transition: border 0.3s ease, background-color 0.3s ease;
 }
 
 .produto h3 {
-    color: #333;
+    color: white;
     margin-top: 0;
     margin-bottom: 5px;
 }
 
 .produto p {
     margin-bottom: 5px;
-    color: #666;
+    color: white;
 }
 
 #listaProdutos {
@@ -85,5 +97,5 @@ button:hover {
 #listaProdutos.empty {
     text-align: center;
     font-style: italic;
-    color: #777;
+    color: white;
 }
